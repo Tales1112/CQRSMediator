@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj": {}
+    "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj": {
+    "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj",
         "projectName": "CQRSMediator.Domain",
-        "projectPath": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj",
-        "packagesPath": "C:\\Users\\X530024\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\obj\\",
+        "projectPath": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj",
+        "packagesPath": "C:\\Users\\tales.silva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\X530024\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tales.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj": {
+    "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj",
         "projectName": "CQRSMediator.Infrastructure",
-        "projectPath": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\X530024\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\CQRSMediator.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\tales.silva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\X530024\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tales.silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj": {
-                "projectPath": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj"
+              "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj": {
+                "projectPath": "C:\\Users\\tales.silva\\source\\repos\\CQRSMediator\\CQRSMediator.Domain\\CQRSMediator.Domain.csproj"
               }
             }
           }
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

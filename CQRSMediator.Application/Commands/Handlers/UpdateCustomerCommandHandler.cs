@@ -1,4 +1,5 @@
-﻿using CQRSMediator.Domain.Interfaces;
+﻿using CQRSMediator.Application.Services.Notifications;
+using CQRSMediator.Domain.Interfaces;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
@@ -20,14 +21,31 @@ namespace CQRSMediator.Application.Commands.Handlers
         {
             var customer = await _context.GetById(request.Id);
 
-            if (customer is null) return default;
+            if (customer == null)
+            {
+                await _mediator.Publish(new ErrorNotification
+                {
+                    Error = "Customer not Found",
+                    Stack = "Customer is null"
+                }, cancellationToken);
+                return default;
+            }
+            else
+            {
+                customer.Name = request.Name;
+                customer.Email = request.Email;
 
-            customer.Name = request.Name;
-            customer.Email = request.Email;
+                _context.Update(customer);
 
-            _context.Update(customer);
+                await _mediator.Publish(new CustomerActionNotification
+                {
+                    Name = request.Name,
+                    Email = request.Email,
+                    Action = ActionNotification.Updated
+                }, cancellationToken);
 
-            return customer.Id;
+                return customer.Id;
+            }
         }
     }
 }

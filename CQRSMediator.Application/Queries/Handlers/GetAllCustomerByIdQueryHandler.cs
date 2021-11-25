@@ -1,4 +1,5 @@
-﻿using CQRSMediator.Domain.Entities;
+﻿using CQRSMediator.Application.Services.Notifications;
+using CQRSMediator.Domain.Entities;
 using CQRSMediator.Domain.Interfaces;
 using MediatR;
 using System.Threading;
@@ -19,9 +20,15 @@ namespace CQRSMediator.Application.Queries.Handlers
         public  async Task<Customer> Handle(GetCustomerByIdQuery request, CancellationToken cancellationToken)
         {
             var customer = await _context.GetById(request.Id);
-
-            if (customer == null) return default;
-
+            if (customer is null)
+            {
+                await _mediator.Publish(new ErrorNotification
+                {
+                    Error = "Customer not Found",
+                    Stack = "Customer is null"
+                }, cancellationToken);
+                return default;
+            }
             return customer;
         }
     }

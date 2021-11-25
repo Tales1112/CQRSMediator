@@ -1,0 +1,12 @@
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\bin\Debug\net5.0\CQRSMediator.Domain.deps.json
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\bin\Debug\net5.0\CQRSMediator.Domain.dll
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\bin\Debug\net5.0\ref\CQRSMediator.Domain.dll
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\bin\Debug\net5.0\CQRSMediator.Domain.pdb
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.csprojAssemblyReference.cache
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.AssemblyInfoInputs.cache
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.AssemblyInfo.cs
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.dll
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\ref\CQRSMediator.Domain.dll
+C:\Users\tales.silva\source\repos\CQRSMediator\CQRSMediator.Domain\obj\Debug\net5.0\CQRSMediator.Domain.pdb

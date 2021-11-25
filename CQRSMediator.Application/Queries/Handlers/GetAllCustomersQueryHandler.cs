@@ -1,4 +1,5 @@
-﻿using CQRSMediator.Domain.Entities;
+﻿using CQRSMediator.Application.Services.Notifications;
+using CQRSMediator.Domain.Entities;
 using CQRSMediator.Domain.Interfaces;
 using MediatR;
 using System.Collections.Generic;
@@ -21,8 +22,15 @@ namespace CQRSMediator.Application.Queries
         {
             var customerList = await _context.GetAll();
 
-            if (customerList is null) return default;
-
+            if (customerList is null)
+            {
+                await _mediator.Publish(new ErrorNotification
+                {
+                    Error = "Customer not Found",
+                    Stack = "Customer is null"
+                }, cancellationToken);
+                return default;
+            }
             return customerList;
         }
     }
