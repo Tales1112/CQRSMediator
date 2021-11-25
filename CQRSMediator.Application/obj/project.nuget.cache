@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "r/YMJh1stzvtatCczKlIZTEG/LhB9Z3FZJR+6KfXwH963q8N/OrqNSvqkwATRBMnDmwrV1PROeLjyeYI27JtPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\X530024\\source\\repos\\CQRSMediator\\CQRSMediator.Application\\CQRSMediator.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\X530024\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\X530024\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\X530024\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
